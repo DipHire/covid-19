@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="device-width,intial-scale=1.0">
+		<title>Covid 19 Tracker India</title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="conrainer-fluid p-5 bg-light text-center my-3">
+			<h1>COVID 19 INDIA </h1>
+			<h5 class="text-muted">Open Source Project for Covid-19 Tracker</h5>
+		</div>
+		<div class="conrainer my-5">
+			<div class="row text-center">
+				<div class="col-3 text-warning">
+					<h5>Confirmed</h5>
+					<p id="confirmed"></p>
+				</div>
+				<div class="col-3 text-info">
+					<h5>Active</h5>
+					<p id="active"></p>
+				</div>
+				<div class="col-3 text-success">
+					<h5>Recovered</h5>
+					<p id="recovered"></p>
+				</div>
+				<div class="col-3 text-danger">
+					<h5>Decrease</h5>
+					<p id="deaths"></p>
+				</div>
+			</div>
+
+		<canvas id="myChart"></canvas> 
+			
+		</div>
+	
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+	<script src="script.js"></script>
+
+	<footer>
+		<p class="conrainer-fluid p-5 bg-light text-center my-3">Made with ❤️ By <a href="http://diphire.ml/">Dip Hire</a></p>
+	</footer>
+</html>
